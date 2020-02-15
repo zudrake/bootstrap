@@ -26,6 +26,7 @@ header h2 {
   padding: 30px;
   background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
   color: white;
+  
 }
 
 .row-content {
@@ -49,9 +50,10 @@ header h2 {
 .carousel {
   border: solid #5637dd;
 }
+
 /* dark mode */
 
-html[data-theme="dark"] {
+/* html[data-theme="dark"] {
   --bg: #333333;
   --bg-panel: #434343;
   --color-headings: #3694ff;
@@ -63,4 +65,4 @@ body {
 
 input[type="checkbox"] {
   visibility: hidden;
-}
+} */
