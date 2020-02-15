@@ -49,3 +49,42 @@ header h2 {
 .carousel {
   border: solid #5637dd;
 }
+/* dark mode */
+html {
+  --bg: #fcfcfc;
+  --bg-panel: #ebebeb;
+  --color-headings: #0077ff;
+  --color-text: #333333;
+}
+
+html[data-theme="dark"] {
+  --bg: #333333;
+  --bg-panel: #434343;
+  --color-headings: #3694ff;
+  --color-text: #d2adad;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+.container {
+  background-color: var(--bg-panel);
+  display: grid;
+}
+
+input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+nav.label {
+  cursor: pointer;
+  text-indent: -9999px;
+
+  background: grey;
+
+  border-radius: 100px;
+  position: relative;
+}
