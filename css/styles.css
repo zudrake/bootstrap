@@ -51,7 +51,7 @@ header h2 {
 }
 /* dark mode */
 
-html[data-theme="dark"] {
+/* html[data-theme="dark"] {
   --bg: #333333;
   --bg-panel: #434343;
   --color-headings: #3694ff;
@@ -63,4 +63,10 @@ body {
 
 input[type="checkbox"] {
   visibility: hidden;
+} */
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
