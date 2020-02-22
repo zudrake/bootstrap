@@ -6,7 +6,9 @@
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/"
+
   },
   "author": "Drake Ju",
   "license": "ISC",
@@ -17,5 +19,8 @@
     "jquery": "^3.3.1",
     "lite-server": "^2.3.0",
     "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
   }
 }
