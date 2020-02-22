@@ -1,12 +1,3 @@
-$color-primary: #3046C5;
-$color-secondary: #5637dd;
-$color-pale: #CEC8FF;
-$color-mid: #901CAD;
-$color-dark: #60106b;
-$color-transparent-black: rgba(0, 0, 0, 0.5);
-$color-teal:#17A2B8;
-
-
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -17,16 +8,13 @@ h3 {
   font-family: "Lobster", cursive;
 }
 
-<<<<<<< HEAD
-=======
 h2 {
-  color: #9c8521;
+  color: #3046c5;
 }
 
 header h2 {
   color: #cec8ff;
 }
->>>>>>> 39231a2041013d166b64c7970ac0d726d91644ce
 
 .site-footer {
   background-image: linear-gradient(#cec8ff, white);
@@ -38,7 +26,6 @@ header h2 {
   padding: 30px;
   background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
   color: white;
-  
 }
 
 .row-content {
@@ -78,21 +65,8 @@ body {
 input[type="checkbox"] {
   visibility: hidden;
 } */
-
-
-#reserveModal{
-  .modal-header{
-    h2{
-      background-color: $color-teal;
-      color: white;
-    }
-  }
-}
-#loginModal{
-  .modal-header{
-    background-color: $color-mid;
-    h2{
-      color: white;
-    }
-  }
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }

@@ -4,11 +4,14 @@
   "description": "This is a website for the fictional campsites review site NuCamp.",
   "main": "index.html",
   "scripts": {
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
+    "clean": "rimraf dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* -o dist/img",
     "lite": "lite-server",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass -o css/ css/"
-
   },
   "author": "Drake Ju",
   "license": "ISC",
